@@ -43,12 +43,12 @@ height: 400px;
 
 }
 
-.OtherWork img{
+.RestofWork img{
 width: 200px; 
 height: 200px; 
 }
 
-.OtherWork {
+.RestofWork {
 display: flex; 
 }
 
@@ -57,11 +57,23 @@ flex: 33.33%;
 padding: 2px; 
 }
 
-#contact-me {
-
+#contact-me ul li {
+display: inline; 
 }
 
 #resume {
 
 }
+
+@media screen and (max-width: 768px) {
+    main,
+    section,
+    img, {
+      flex-direction: column;
+    }
+  }
+  
+
+
+
 
