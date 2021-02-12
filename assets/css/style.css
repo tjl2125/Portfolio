@@ -54,12 +54,30 @@ border: 1px var(--black) solid;
 
 }
 
-#work {
-
+/*.FirstWork {
+    position: relative; 
+    height: 200px; 
+    width: 300px; 
 }
 
+h3 {
+    position: absolute;
+    top: 0; 
+    bottom:0; 
+    left: 0; 
+    right: 0; 
+    visibility: hidden; 
+    opacity: 0; 
+    transition: opacity .2s, visibility .2s; 
+}
+
+.Firstwork:hover h3 {
+    visibility: visible; 
+    opacity: 1; 
+} */
+
 .FirstWork img{
-width: 1000px; 
+width: 600px; 
 height: 400px;
 
 }
@@ -77,6 +95,7 @@ display: flex;
 .otherworkitems {
 flex: 33.33%; 
 padding: 2px; 
+float: left; 
 }
 
 #contact-me ul li {
@@ -100,12 +119,12 @@ text-align: center;
 }
 
 @media screen and (max-width: 768px) {
-    main,
-    section,
-    img, {
-      flex-direction: column;
+    img {
+       grid-template-columns: : 100px 1fr; 
+       width: 100%; 
+       margin: 5px; 
+       display: flex; 
     }
-  }
   
 
 
