@@ -93,17 +93,16 @@ float: left;
 .RestofWork {
 display: flex;
 flex: 1 1 30%; 
-/*justify-content: space-around;  */
 } 
 
-.otherworkitems {
+.otherworkitems img {
+transition: transform .2s; 
 flex: 33.33%; 
-padding: 2px;
-transition: transform .2s;  
+padding: 2px; 
 }
 
-.otherworkitems {
-transform: scale (1.1); 
+.otherworkitems:hover {
+transform: scale(1.1);  
 }
 
 #contact-me ul li {
@@ -132,15 +131,24 @@ font-weight:lighter;
 }
 
 @media screen and (max-width: 768px) {
-    .RestofWork {
-       grid-template-columns: : 100px 1fr; 
-       columns: 100px 1; 
-       width: 100%; 
-       margin: 5px; 
-       display: flex; 
+    .FirstWork img {
+        display:flex; 
+        width: 90%; 
+        margin: auto; 
     }
-}
-  
+
+
+    .RestofWork {
+        display: flex;
+        flex-direction:column; 
+        flex: 1 1 100%; 
+    }
+
+    .otherworkitems img {
+        display: flex; 
+        flex-direction: column; 
+    }
+        
 
 
 
