@@ -1,31 +1,39 @@
 
 :root {
-    --black: #000; 
-    --royalblue: #4169E1; 
-    --crimson: #DC143C; 
+--black: #000; 
+--royalblue: #4169E1; 
+--crimson: #DC143C; 
+--yellow: #FAFAD2; 
+}
+
+html {
+scroll-behavior: smooth; 
 }
 
 body{
-    font-family:'Times New Roman', Times, serif; 
+font-family:'Times New Roman', Times, serif; 
 }
 
 .container {
-    width: 90%;  
-    margin: 0 auto; 
-    display: flex;  
-    justify-content: center; 
-    flex-direction: column; 
+width: 90%;  
+margin: 0 auto; 
+display: flex;  
+justify-content: center; 
+flex-direction: column; 
 }
 
 a:hover {
-    cursor: pointer; 
-    cursor: hand; 
+cursor: pointer; 
 }
 
 a {
 color: var(--crimson); 
 font-family:Arial, Helvetica, sans-serif; 
 font-weight: bold; 
+}
+
+hr {
+margin-top: 5px;  
 }
 
 h1 {
@@ -38,7 +46,7 @@ border-radius: 10px;
 width: 300px;  
 }
 
-h2{
+h2 {
 font-size: 200%;
 margin: auto; 
 margin-top: 20px;
@@ -55,7 +63,7 @@ border-radius: 10px;
 }
 
 #about-me img {
-border: 1px var(--black) solid; 
+border: 3px var(--black) solid; 
 }
 
 p {
@@ -66,25 +74,38 @@ margin-bottom: 5px;
 .FirstWork img{
 width: 600px; 
 height: 400px;
-margin-top: 5px; 
+margin-top: 5px;
+transition: transform .2s;  
 
+}
+
+.FirstWork img:hover {
+transform: scale(1.1);
 }
 
 .RestofWork img{
 width: 200px; 
 height: 200px; 
 margin-top: 5px;
-float: left;  
+float: left;
 }
 
 .RestofWork {
 display: flex;
+/*justify-content: space-around;  */
 } 
 
 .otherworkitems {
 flex: 33.33%; 
 padding: 2px; 
-float: left; 
+}
+
+.otherworkitems img { 
+transition:transform .2s; 
+}
+
+.otherworkitems img:hover {
+transform: scale (1.1); 
 }
 
 #contact-me ul li {
@@ -96,16 +117,17 @@ padding: 10px;
 }
 
 #resume button{
-background-color: ; 
+background-color: var(--yellow); 
 color:black ; 
 border-radius: 15px ; 
-height: 15px ;
-width: 500px ;
+height: 10px ;
+width: 200px ;
 padding: 20px 20px ;
 margin-left: 20%; 
 text-transform: uppercase; 
 font-weight: 800px ; 
-text-align: center; 
+text-align: center;
+
 }
 
 footer a {
@@ -113,7 +135,7 @@ font-weight:lighter;
 }
 
 @media screen and (max-width: 768px) {
-    .otherworkitems {
+    .RestofWork {
        grid-template-columns: : 100px 1fr; 
        columns: 100px 1; 
        width: 100%; 
