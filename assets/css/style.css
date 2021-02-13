@@ -66,18 +66,20 @@ margin-bottom: 5px;
 .FirstWork img{
 width: 600px; 
 height: 400px;
+margin-top: 5px; 
 
 }
 
 .RestofWork img{
 width: 200px; 
 height: 200px; 
+margin-top: 5px;
+float: left;  
 }
 
 .RestofWork {
-display: flex; 
-
-}
+display: flex;
+} 
 
 .otherworkitems {
 flex: 33.33%; 
