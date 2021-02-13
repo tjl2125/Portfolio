@@ -7,8 +7,13 @@ contacting me, and a way of getting my resume. The website provides the basic in
 so that an employer can get an idea of what I am capable of doing and if I would be a good fit for their
 business, as well as providing a way to look more into myself through my contacts and resume. I had some 
 trouble in getting certain things working such as the formatting and styling since I do not have much
-background in art, but I was still able to accomplish making a decent layout. 
+background in art, but I was still able to accomplish making a decent layout. I used filler information
+on this website since I would prefer to focus on the html and css. 
 
 ## Screenshot 
+```md
+![alt text](assets/images/screenshot.png)
+```
 
 ## Link to Deployed Application 
+https://tjl2125.github.io/Advanced-CSS-Portfolio/ 
