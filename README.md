@@ -12,7 +12,7 @@ on this website since I would prefer to focus on the html and css.
 
 ## Screenshot 
 ```md
-![alt text](assets/images/screenshot.png)
+![Screenshot of Portfolio](./assets/images/Screenshot.png)
 ```
 
 ## Link to Deployed Application 
