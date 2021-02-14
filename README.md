@@ -17,3 +17,7 @@ on this website since I would prefer to focus on the html and css.
 
 ## Link to Deployed Application 
 https://tjl2125.github.io/Advanced-CSS-Portfolio/ 
+
+## Credits
+All images taken from unsplash.com or from pixabay.com which do not require attributions. 
+ 
