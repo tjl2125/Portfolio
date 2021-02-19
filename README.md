@@ -11,9 +11,9 @@ background in art, but I was still able to accomplish making a decent layout. I 
 on this website since I would prefer to focus on the html and css. 
 
 ## Screenshot 
-```md
-![Screenshot of Portfolio](./assets/images/Screenshot.png)
-```
+
+![Screenshot of Portfolio](./Screenshot.png)
+
 
 ## Link to Deployed Application 
 https://tjl2125.github.io/Advanced-CSS-Portfolio/ 

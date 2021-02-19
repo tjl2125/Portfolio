@@ -4,6 +4,7 @@
 --royalblue: #4169E1; 
 --crimson: #DC143C; 
 --yellow: #FAFAD2; 
+--warm: #FFEBCD; 
 }
 
 html {
@@ -12,6 +13,7 @@ scroll-behavior: smooth;
 
 body{
 font-family:'Times New Roman', Times, serif; 
+background-color: var(--warm); 
 }
 
 .container {
@@ -44,6 +46,7 @@ font-size: 300%;
 border: var(--royalblue) solid; 
 border-radius: 10px;
 width: 300px;  
+color:#FAFAD2; 
 }
 
 h2 {
@@ -53,13 +56,18 @@ margin-top: 20px;
 margin-bottom: 10px;  
 }
 
+header {
+background-color: var(--black) ;
+}
+
 nav ul li {
-margin: auto; 
+margin: auto;
 display: inline-flex;
 justify-content:space-between center; 
 padding: 10px; 
 border: var(--royalblue) solid; 
 border-radius: 10px; 
+background-color: var(--royalblue); 
 }
 
 #about-me img {
