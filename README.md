@@ -12,7 +12,7 @@ on this website since I would prefer to focus on the html and css.
 
 ## Screenshot 
 
-![Screenshot of Portfolio](./Screenshot.png)
+![Screenshot of Portfolio](./Screenshotfix.png)
 
 
 ## Link to Deployed Application 
