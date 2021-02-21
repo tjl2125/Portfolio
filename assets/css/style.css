@@ -5,6 +5,7 @@
 --crimson: #DC143C; 
 --yellow: #FAFAD2; 
 --warm: #FFEBCD; 
+--gold: #FFD700;  
 }
 
 html {
@@ -65,9 +66,9 @@ margin: auto;
 display: inline-flex;
 justify-content:space-between center; 
 padding: 10px; 
-border: var(--royalblue) solid; 
+border: var(--gold) solid; 
 border-radius: 10px; 
-background-color: var(--royalblue); 
+background-color: var(--gold); 
 }
 
 #about-me img {
