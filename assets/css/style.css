@@ -6,6 +6,11 @@
 --yellow: #FAFAD2; 
 --warm: #FFEBCD; 
 --gold: #FFD700;  
+--tan: #FBE8A6; 
+--orange: #f4976c; 
+--dblue: #303C6C; 
+--teal: #B4DFE5; 
+--lightteal: #D2FDFF; 
 }
 
 html {
@@ -14,7 +19,7 @@ scroll-behavior: smooth;
 
 body{
 font-family:'Times New Roman', Times, serif; 
-background-color: var(--warm); 
+background-color: var(--tan); 
 }
 
 .container {
@@ -44,10 +49,10 @@ margin:auto;
 margin-bottom: 20px;
 margin-top: 5px;  
 font-size: 300%; 
-border: var(--royalblue) solid; 
+border: var(--teal) solid; 
 border-radius: 10px;
 width: 300px;  
-color:#FAFAD2; 
+color: var(--dblue); 
 }
 
 h2 {
@@ -58,7 +63,7 @@ margin-bottom: 10px;
 }
 
 header {
-background-color: var(--black) ;
+background-color: var(--orange) ;
 }
 
 nav ul li {
@@ -66,13 +71,13 @@ margin: auto;
 display: inline-flex;
 justify-content:space-between center; 
 padding: 10px; 
-border: var(--gold) solid; 
+border: var(--teal) solid; 
 border-radius: 10px; 
-background-color: var(--gold); 
+background-color: var(--teal); 
 }
 
 #about-me img {
-border: 3px var(--black) solid; 
+border: 3px var(--dblue) solid; 
 }
 
 p {
