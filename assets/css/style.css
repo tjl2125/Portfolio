@@ -49,9 +49,12 @@ margin:auto;
 margin-bottom: 20px;
 margin-top: 5px;  
 font-size: 300%; 
+text-align: center; 
 border: var(--teal) solid; 
 border-radius: 10px;
-width: 300px;  
+background-color: var(--teal);
+width: 30%;  
+height: auto; 
 color: var(--dblue); 
 }
 
@@ -63,26 +66,37 @@ margin-bottom: 10px;
 }
 
 header {
-background-color: var(--orange) ;
+background-color: var(--orange) ; 
 }
 
 nav ul li {
-margin: auto;
-display: inline-flex;
-justify-content:space-between center; 
+margin-left: auto; 
+margin-right: auto; 
+margin-top: 5px;
+margin-bottom: 5px; 
+display: flex;
+justify-content: center; 
+align-items: center;
 padding: 10px; 
 border: var(--teal) solid; 
 border-radius: 10px; 
 background-color: var(--teal); 
+width: 20%;  
+height: auto; 
 }
 
 #about-me img {
 border: 3px var(--dblue) solid; 
 border-radius: 50%; 
+display: block;
+margin-left: auto;
+margin-right: auto; 
 }
 
 #about-me p {
-float: right; 
+width: 50%; 
+padding-top: 10px; 
+padding-bottom: 10px; 
 }
 
 p {
@@ -90,7 +104,7 @@ margin: auto;
 margin-bottom: 5px; 
 }
 
-.firstWork img{
+.mainWork img{
 width: 600px; 
 margin-top: 5px;
 flex: 1 1 100%; 
@@ -98,29 +112,29 @@ transition: transform .2s;
 }
 
 /*wanted the images under Work to slightly enlarge when you hover your cursor over them */
-.firstWork img:hover {
+.mainWork img:hover {
 transform: scale(1.1);
 }
 
-.RestofWork img{
+.other img{
 width: 200px; 
 height: 200px; 
 margin-top: 10px;
 float: left;
 }
 
-.RestofWork {
+.other {
 display: flex;
 flex: 1 1 30%; 
 } 
 
-.otherworkitems img {
+.projects img {
 transition: transform .2s; 
 flex: 33.33%; 
 padding: 2px; 
 }
 
-.otherworkitems:hover {
+.projects:hover {
 transform: scale(1.1);  
 }
 
@@ -150,20 +164,20 @@ font-weight:lighter;
 }
 
 @media screen and (max-width: 768px) {
-    .firstWork img {
+    .mainWork img {
         display:flex; 
         width: 90%; 
         margin: auto; 
     }
 
     /* made it so that the images would form a column on mobile devices*/
-    .RestofWork {
+    .other {
         display: flex;
         flex-direction:column; 
         flex: 1 1 100%; 
     }
 
-    .otherworkitems img {
+    .projects img {
         display: flex; 
         flex-direction: column; 
     }
