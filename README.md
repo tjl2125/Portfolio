@@ -1,4 +1,4 @@
-# HW2-Advanced-CSS-Portfolio
+# Taylor Leong Portfolio Website
 
 ## Description 
 From the perspective of a potential employee, I present a website that acts as a deployed portfolio which
@@ -16,7 +16,7 @@ on this website since I would prefer to focus on the html and css.
 
 
 ## Link to Deployed Application 
-https://tjl2125.github.io/Advanced-CSS-Portfolio/ 
+https://tjl2125.github.io/Portfolio/
 
 ## Credits
 All images taken from unsplash.com or from pixabay.com which do not require attributions. 

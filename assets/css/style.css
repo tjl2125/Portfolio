@@ -78,6 +78,11 @@ background-color: var(--teal);
 
 #about-me img {
 border: 3px var(--dblue) solid; 
+border-radius: 50%; 
+}
+
+#about-me p {
+float: right; 
 }
 
 p {
@@ -85,7 +90,7 @@ margin: auto;
 margin-bottom: 5px; 
 }
 
-.FirstWork img{
+.firstWork img{
 width: 600px; 
 margin-top: 5px;
 flex: 1 1 100%; 
@@ -93,7 +98,7 @@ transition: transform .2s;
 }
 
 /*wanted the images under Work to slightly enlarge when you hover your cursor over them */
-.FirstWork img:hover {
+.firstWork img:hover {
 transform: scale(1.1);
 }
 
@@ -145,7 +150,7 @@ font-weight:lighter;
 }
 
 @media screen and (max-width: 768px) {
-    .FirstWork img {
+    .firstWork img {
         display:flex; 
         width: 90%; 
         margin: auto; 
