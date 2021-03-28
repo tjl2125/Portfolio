@@ -13,7 +13,7 @@ copy of my resume.
 
 ## Screenshot 
 
-![Screenshot of Portfolio](./Screenshotfix.png)
+![Screenshot of Portfolio](./ScreenshotofPortfolio.png)
 
 
 ## Link to Deployed Application 
