@@ -222,6 +222,7 @@ padding: 10px;
         display:flex; 
         width: 90%; 
         margin: auto; 
+        padding-top: 20px; 
     }
 
     /* made it so that the images would form a column on mobile devices*/
@@ -234,4 +235,7 @@ padding: 10px;
     .projects img {
         display: flex; 
         flex-direction: column; 
+        width: 90%; 
+        padding-bottom: 20px; 
+        padding-top: 10px; 
     }
