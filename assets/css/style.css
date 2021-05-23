@@ -81,14 +81,19 @@ header {
 background-color: var(--orange) ; 
 }
 
+nav {
+position: sticky; 
+overflow: hidden; 
+}
+
 nav ul li {
 margin-left: auto; 
 margin-right: auto; 
 margin-top: 5px;
 margin-bottom: 5px; 
-display: flex;
+display: inline-flex;
 justify-content: center; 
-align-items: center;
+/* align-items: center; */
 padding: 10px; 
 border: var(--teal) solid; 
 border-radius: 10px; 
@@ -239,3 +244,4 @@ padding: 10px;
         padding-bottom: 20px; 
         padding-top: 10px; 
     }
+}
